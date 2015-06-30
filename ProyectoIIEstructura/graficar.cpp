@@ -15,7 +15,7 @@ Graficar::Graficar(QWidget *parent) :
     this->matrizAd = NULL;
     this->caminos = NULL;
     this->warshall = false;
-    ui->VistaMatriz->setScene(matrizView);
+    //ui->VistaMatriz->setScene(matrizView);
 }
 
 Graficar::~Graficar()
@@ -44,7 +44,7 @@ void Graficar::on_BtnCalcularMat_clicked()
 
     this->matrizAd = grafo->crearMatrizAdyacencia();
 
-    switch(ui->CmbTipos->currentIndex())
+/*    switch(ui->CmbTipos->currentIndex())
     {
         case 0:
             break;
@@ -95,7 +95,7 @@ void Graficar::on_BtnCalcularMat_clicked()
     }
 
     if(!ui->BtnAbrir->isEnabled())
-        ui->BtnAbrir->setEnabled(true);
+        ui->BtnAbrir->setEnabled(true);*/
 }
 
 void Graficar::on_BtnAgregarVer_clicked()
@@ -151,7 +151,8 @@ void Graficar::on_BtnBorrarVer_clicked()
 
 void Graficar::on_BtnAbrir_clicked()
 {
-    int index = ui->CmbTipos->currentIndex();
+    //int index = ui->CmbTipos->currentIndex();
+    int index;
 
     switch(index)
     {

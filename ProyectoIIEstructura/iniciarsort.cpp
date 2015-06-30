@@ -6,8 +6,8 @@ IniciarSort::IniciarSort()
     size = 9000;
     for(int i=0; i<size; i++)
     {
-        arreglo[i]=1+(rand()%100);
-        hipo[i]=1+(rand()%100);
+        arreglo[i]=1+(rand()%500);
+        hipo[i]=1+(rand()%500);
     }
 
     Merge = new MergeSort(arreglo);

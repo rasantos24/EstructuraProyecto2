@@ -8,7 +8,7 @@ BinSort::BinSort(int arreglo[])
 
 void BinSort::binSort(int nada)
 {
-  int mira = 101;
+  int mira = 501;
 
   int cubos[mira];
 
