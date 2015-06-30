@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Graficar</class>
+ <widget class="QDialog" name="Graficar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1174</width>
+    <height>706</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="VistaGrafo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>1131</width>
+     <height>491</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="VistaMatriz">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>520</y>
+     <width>411</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnCalcularMat">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>650</y>
+     <width>711</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Calcular La Matriz Resultante</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditValorVer">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>530</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelValor">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>530</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Valor:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnAgregarVer">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>530</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Agregar Vertice</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelCosto">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>560</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Costo:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditCosto">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>560</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditOrigen">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>590</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelOrigen">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>590</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Origen:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditDestino">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>620</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelDestino">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>620</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Destino:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnAgregarArista">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>560</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Agregar Arista</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditDestinoBo">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>600</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnBorrarArista">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>560</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Borrar Arista</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelOrigenBo">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>570</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Origen:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnBorrarVertice">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>530</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Borrar Vertice</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditOrigenBo">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>570</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelDestinoBo">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>600</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Destino:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelVerticeBo">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>530</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vertice:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditVerticeBo">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>530</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="CmbTipos">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>530</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelTipo">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>530</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tipo:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="CmbOrigen">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>560</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnAbrir">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>590</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

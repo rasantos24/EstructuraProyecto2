@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OrdenSort</class>
+ <widget class="QDialog" name="OrdenSort">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>707</width>
+    <height>586</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListWidget" name="ListaDesOrd">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>91</width>
+     <height>461</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnGenerar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>510</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Generar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnQS">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QuickSort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnMS">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MergeSort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnBS">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BubbleSort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnBS_2">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BinSort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnHS">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HeapSort</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditBubble">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>520</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditHS">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>520</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditBinSort">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>520</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditMS">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>520</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EditQS">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>520</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelDesOr">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Desordenados</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="ListaQS">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>91</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelTiempo">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>550</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tiempos</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="ListaMS">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>30</y>
+     <width>91</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="ListaBubble">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>30</y>
+     <width>91</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="ListaBinSort">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>30</y>
+     <width>91</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="ListaHS">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>30</y>
+     <width>91</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelOrden">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>10</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ordenados</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
